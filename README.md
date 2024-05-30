@@ -65,7 +65,7 @@ Generating output texts from input images requires only a single inference pass,
 **GPT-4o** [Website](https://openai.com/index/hello-gpt-4o/)
 
 ## Large World Models
-**JEPA: A Path Towards Autonomous Machine Intelligence** [Paper](https://openreview.net/pdf?id=BZ5a1r-kVsf）\
+**JEPA: A Path Towards Autonomous Machine Intelligence** [Paper](https://openreview.net/pdf?id=BZ5a1r-kVsf) \
 Voyager: An open-ended embodied agent with large language models [Paper](https://arxiv.org/abs/2305.16291) [Code](https://github.com/MineDojo/Voyager) \
 Ghost in the Minecraft: Generally capable agents for open-world enviroments via large language models with text-based knowledge and memory [Paper](https://arxiv.org/abs/2305.17144) [Code](https://github.com/OpenGVLab/GITM) \
 **Objective-Driven AI** [Slides](https://www.ece.uw.edu/wp-content/uploads/2024/01/lecun-20240124-uw-lyttle.pdf) \
