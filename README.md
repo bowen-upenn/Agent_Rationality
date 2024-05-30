@@ -25,7 +25,7 @@ This survey is the first to specifically examine the increasingly important rela
 
 Each field of research in the figure above, such as knowledge retrieval or neuro-symbolic reasoning, addresses one or more fundamental axioms for rational thinking. These requirements are typically intertwined; therefore, an approach that enhances one aspect of rationality often inherently improves others simultaneously.
 
-We include all related work in our survey below, categorized by their fields. **Bold fonts are used to mark work that involve multi-modalities.** In their original writings, most existing studies do not explicitly base their frameworks on rationality. Our analysis aims to reinterpret these works through the lens of our four axioms of rationality, offering a novel perspective that bridges existing methodologies with rational principles.
+We include all related works in our survey below, categorized by their fields. **Bold fonts are used to mark work that involve multi-modalities.** In their original writings, most existing studies do not explicitly base their frameworks on rationality. Our analysis aims to reinterpret these works through the lens of our four axioms of rationality, offering a novel perspective that bridges existing methodologies with rational principles.
 
 ## Knowledge Retrieval
 RAG: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks [Paper](https://arxiv.org/abs/2005.11401) \
@@ -109,12 +109,60 @@ CoBBLEr: Benchmarking cognitive biases in large language models as evaluators [P
 Large Language Models are Inconsistent and Biased Evaluators [Paper](https://arxiv.org/pdf/2405.01724)
 
 
+## Neuro-Symbolic Reasoning
+**Binder: Binding language models in symbolic languages** [Paper](https://arxiv.org/abs/2210.02875) [Code](https://github.com/xlang-ai/Binder) \
+Parsel: Algorithmic Reasoning with Language Models by Composing Decompositions [Paper](https://arxiv.org/abs/2212.10561) [Code](https://github.com/ezelikman/parsel) \
+**Sparks of artificial general intelligence: Early experiments with gpt-4** [Paper](https://arxiv.org/abs/2303.12712) \
+Logic-LM: Empowering large language models with symbolic solvers for faithful logical reasoning [Paper](https://arxiv.org/abs/2305.12295) [Code](https://github.com/teacherpeterpan/Logic-LLM) \
+Minding Language Models' (Lack of) Theory of Mind: A Plug-and-Play Multi-Character Belief Tracker [Paper](https://arxiv.org/abs/2306.00924) [Code](https://github.com/msclar/symbolictom) \
+Towards formal verification of neuro-symbolic multi-agent systems [Paper](https://www.ijcai.org/proceedings/2023/0800.pdf) \
+**What’s Left? Concept Grounding with Logic-Enhanced Foundation Models** [Paper](https://arxiv.org/abs/2310.16035) [Code](https://github.com/joyhsu0504/LEFT) \
+Ada: Learning adaptive planning representations with natural language guidance [Paper](https://arxiv.org/abs/2312.08566) \
+Large language models are neurosymbolic reasoners [Paper](https://arxiv.org/abs/2401.09334) [Code](https://github.com/hyintell/llmsymbolic) \
+**DoraemonGPT: Toward understanding dynamic scenes with large language models** [Paper](https://arxiv.org/abs/2401.08392) [Code](https://github.com/z-x-yang/DoraemonGPT) \
+A Neuro-Symbolic Approach to Multi-Agent RL for Interpretability and Probabilistic Decision Making [Paper](https://arxiv.org/abs/2402.13440) \
+Conceptual and Unbiased Reasoning in Language Models [Paper](https://arxiv.org/abs/2404.00205)
 
 
+## Self-Reflection, Multi-Agent Debate, and Collboration
+Self-Refine: Iterative refinement with self-feedback [Paper](https://arxiv.org/abs/2303.17651) [Code](https://github.com/madaan/self-refine) \
+Reflexion: Language agents with verbal reinforcement learning [Paper](https://arxiv.org/abs/2303.11366) [Code](https://github.com/noahshinn/reflexion) \
+FORD: Examining Inter-Consistency of Large Language Models Collaboration: An In-depth Analysis via Debate [Paper](https://arxiv.org/abs/2305.11595) [Code](https://github.com/Waste-Wood/FORD) \
+Memorybank: Enhancing large language models with long-term memory [Paper](https://arxiv.org/abs/2305.10250) [Code](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) \
+LM vs LM: Detecting factual errors via cross examination [Paper](https://arxiv.org/abs/2305.13281) \
+Multi-Agent Collaboration: Harnessing the Power of Intelligent LLM Agents [Paper](https://arxiv.org/abs/2306.03314) \
+Improving factuality and reasoning in language models through multiagent debate [Paper](https://arxiv.org/abs/2305.14325) [Code](https://github.com/composable-models/llm_multiagent_debate) \
+MAD: Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate [Paper](https://arxiv.org/abs/2305.19118) [Code](https://github.com/Skytliang/Multi-Agents-Debate) \
+S3: Social-network Simulation System with Large Language Model-Empowered Agents [Paper](https://arxiv.org/abs/2307.14984) \
+ChatDev: Communicative agents for software development [Paper](https://arxiv.org/abs/2307.07924) [Code](https://github.com/OpenBMB/ChatDev) \
+ChatEval: Towards better llm-based evaluators through multi-agent debate [Paper](https://arxiv.org/abs/2308.07201) [Code](https://github.com/thunlp/ChatEval) \
+AutoGen: Enabling next-gen llm applications via multi-agent conversation framework [Paper](https://arxiv.org/abs/2308.08155) [Code](https://microsoft.github.io/autogen/) \
+Corex: Pushing the boundaries of complex reasoning through multi-model collaboration [Paper](https://arxiv.org/abs/2310.00280) [Code](https://github.com/QiushiSun/Corex) \
+DyLAN: Dynamic llm-agent network: An llm-agent collaboration framework with agent team optimization [Paper](https://arxiv.org/abs/2310.02170) [Code](https://github.com/SALT-NLP/DyLAN) \
+AgentCF: Collaborative learning with autonomous language agents for recommender systems [Paper](https://arxiv.org/abs/2310.09233) \
+MetaAgents: Simulating interactions of human behaviors for llm-based task-oriented coordination via collaborative generative agents [Paper](https://arxiv.org/abs/2310.06500) \
+Social Learning: Towards Collaborative Learning with Large Language Models [Paper](https://arxiv.org/abs/2312.11441) \
+Enhancing Diagnostic Accuracy through Multi-Agent Conversations: Using Large Language Models to Mitigate Cognitive Bias [Paper](https://arxiv.org/abs/2401.14589) \
+Combating Adversarial Attacks with Multi-Agent Debate [Paper](https://arxiv.org/abs/2401.05998) \
+Debating with More Persuasive LLMs Leads to More Truthful Answers [Paper](https://arxiv.org/abs/2402.06782) [Code](https://github.com/ucl-dark/llm_debate) 
 
 
-
-
+## Prompting Strategy and Memory
+_Works in section are not all directly related to multi-modal or multi-agent systems_ \
+CoT: Chain-of-thought prompting elicits reasoning in large language models [Paper](https://arxiv.org/abs/2201.11903) \
+Language model cascades [Paper](https://arxiv.org/abs/2207.10342) [Code](https://github.com/google-research/cascades) \
+ReAct: Synergizing reasoning and acting in language models [Paper](https://arxiv.org/abs/2210.03629) [Code](https://github.com/ysymyth/ReAct) \
+Memorybank: Enhancing large language models with long-term memory [Paper](https://arxiv.org/abs/2305.10250) [Code](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) \
+Tree of thoughts: Deliberate problem solving with large language models [Paper](https://arxiv.org/abs/2305.10601) [Code](https://github.com/princeton-nlp/tree-of-thought-llm) \
+**Beyond chain-of-thought, effective graph-of-thought reasoning in large language models** [Paper](https://arxiv.org/abs/2305.16582) [Code](https://github.com/Zoeyyao27/Graph-of-Thought) \
+Graph of thoughts: Solving elaborate problems with large language models [Paper](https://arxiv.org/abs/2308.09687) [Code](https://github.com/spcl/graph-of-thoughts) \
+MemoChat: Tuning llms to use memos for consistent long-range open-domain conversation [Paper](https://arxiv.org/abs/2308.08239) [Code](https://github.com/LuJunru/MemoChat) \
+Retroformer: Retrospective large language agents with policy gradient optimization [Paper](https://arxiv.org/abs/2308.02151) [Code](https://github.com/weirayao/retroformer) \
+FormatSpread: How I learned to start worrying about prompt formatting [Paper](https://arxiv.org/abs/2310.11324) [Code](https://github.com/msclar/formatspread) \
+ADaPT: As-Needed Decomposition and Planning with Language Models [Paper](https://arxiv.org/abs/2311.05772) [Code](https://github.com/archiki/ADaPT) \
+EureQA: How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts [Paper](https://arxiv.org/abs/2402.13220) \
+Combating Adversarial Attacks with Multi-Agent Debate [Paper](https://arxiv.org/abs/2401.05998) \
+MAD-Bench: How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts [Paper](https://arxiv.org/abs/2402.13220)
 
 
 
