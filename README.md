@@ -56,6 +56,22 @@ Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents [Paper](h
 **Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context** [Paper](https://arxiv.org/abs/2403.05530) \
 **GPT-4o** [Website](https://openai.com/index/hello-gpt-4o/)
 
+## Large World Models
+**JEPA: A Path Towards Autonomous Machine Intelligence** [Paper](https://openreview.net/pdf?id=BZ5a1r-kVsf）\
+Voyager: An open-ended embodied agent with large language models [Paper](https://arxiv.org/abs/2305.16291) [Code](https://github.com/MineDojo/Voyager) \
+Ghost in the Minecraft: Generally capable agents for open-world enviroments via large language models with text-based knowledge and memory [Paper](https://arxiv.org/abs/2305.17144) [Code](https://github.com/OpenGVLab/GITM) \
+**Objective-Driven AI** [Slides](https://www.ece.uw.edu/wp-content/uploads/2024/01/lecun-20240124-uw-lyttle.pdf) \
+**LWM: World Model on Million-Length Video And Language With RingAttention** [Paper](https://arxiv.org/abs/2402.08268) [Code](https://github.com/LargeWorldModel/LWM) \
+**Sora: Video generation models as world simulators** [Website](https://openai.com/index/video-generation-models-as-world-simulators/) \
+**IWM: Learning and Leveraging World Models in Visual Representation Learning** [Paper](https://arxiv.org/pdf/2403.00504) \
+**CubeLLM: Language-Image Models with 3D Understanding** [Paper](https://arxiv.org/abs/2405.03685) [Code](https://github.com/NVlabs/Cube-LLM) 
+
+
+
+
+
+
+
 
 
 
