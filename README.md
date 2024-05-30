@@ -21,9 +21,11 @@ This survey is the first to specifically examine the increasingly important rela
 <img src=tree.png />
 </p>
 
-Each field of research in the figure above, such as knowledge retrieval or neuro-symbolic reasoning, addresses one or more fundamental axioms for rational thinking. These requirements are typically intertwined; therefore, an approach that enhances one aspect of rationality often inherently improves others simultaneously. We include all related work in our survey below, categorized by their fields. **Bold fonts are used to mark works that involve multi-modalities.** In their original writings, most existing studies do not explicitly base their frameworks on rationality. Our analysis aims to reinterpret these works through the lens of our four axioms of rationality, offering a novel perspective that bridges existing methodologies with rational principles.
+Each field of research in the figure above, such as knowledge retrieval or neuro-symbolic reasoning, addresses one or more fundamental axioms for rational thinking. These requirements are typically intertwined; therefore, an approach that enhances one aspect of rationality often inherently improves others simultaneously.
 
-### Knowledge Retrieval
+We include all related work in our survey below, categorized by their fields. **Bold fonts are used to mark work that involve multi-modalities.** In their original writings, most existing studies do not explicitly base their frameworks on rationality. Our analysis aims to reinterpret these works through the lens of our four axioms of rationality, offering a novel perspective that bridges existing methodologies with rational principles.
+
+## Knowledge Retrieval
 RAG: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks [Paper](https://arxiv.org/abs/2005.11401) \
 **Minedojo: Building open-ended embodied agents with internet-scale knowledge** [Paper](https://arxiv.org/abs/2206.08853) [Code](https://github.com/MineDojo/MineDojo) \
 ReAct: Synergizing reasoning and acting in language models [Paper](https://arxiv.org/abs/2210.03629) [Code](https://github.com/ysymyth/ReAct) \
@@ -38,6 +40,21 @@ WildfireGPT: Tailored Large Language Model for Wildfire Analysis [Paper](https:/
 CuriousLLM: Elevating Multi-Document QA with Reasoning-Infused Knowledge Graph Prompting [Paper](https://arxiv.org/abs/2404.09077) [Code](https://github.com/zukangy/KGP-CuriousLLM) \
 Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents [Paper](https://arxiv.org/pdf/2405.02957)
 
+## Multi-Modal Foundation Models
+**CLIP: Learning transferable visual models from natural language supervision** [Paper](https://arxiv.org/abs/2103.00020) [Code](https://github.com/openai/CLIP) \
+**iNLG: Imagination-guided open-ended text generation** [Paper](https://arxiv.org/abs/2210.03765) [Code](https://github.com/VegB/iNLG) \
+**BLIP-2: Bootstrapping language-image pre-training with frozen image encoders and large language models** [Paper](https://arxiv.org/abs/2301.12597) [Code](https://github.com/salesforce/BLIP) \
+**Vid2Seq: Large-scale pretraining of a visual language model for dense video captioning** [Paper](https://arxiv.org/abs/2302.14115) [Code](https://github.com/google-research/scenic/tree/main/scenic/projects/vid2seq) \
+**MiniGPT-4: Enhancing vision-language understanding with advanced large language models** [Paper](https://arxiv.org/abs/2304.10592) [Code](https://github.com/Vision-CAIR/MiniGPT-4) \
+**Flamingo: a visual language model for few-shot learning** [Paper](https://arxiv.org/abs/2204.14198) \
+**OpenFlamingo: An open-source framework for training large autoregressive vision-language models** [Paper](https://arxiv.org/abs/2308.01390) [Code](https://github.com/mlfoundations/open_flamingo) \
+**LLaVA: Visual Instruction Tuning** [Paper](https://arxiv.org/pdf/2304.08485) [Code](https://github.com/haotian-liu/LLaVA) \
+**LLaVA 1.5: Improved Baselines with Visual Instruction Tuning** [Paper](https://arxiv.org/abs/2310.03744) [Code](https://github.com/haotian-liu/LLaVA) \
+**CogVLM: Visual expert for pretrained language models** [Paper](https://arxiv.org/abs/2311.03079) [Code](https://github.com/THUDM/CogVLM) \
+**GPT-4V(ision) System Card** [Paper](https://cdn.openai.com/papers/GPTV_System_Card.pdf) \
+**Gemini: A Family of Highly Capable Multimodal Models** [Paper](https://arxiv.org/abs/2312.11805) \
+**Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context** [Paper](https://arxiv.org/abs/2403.05530) \
+**GPT-4o** [Website](https://openai.com/index/hello-gpt-4o/)
 
 
 
