@@ -91,6 +91,26 @@ ConAgents: Learning to Use Tools via Cooperative and Interactive Agents [Paper](
 **Multi-Agent VQA: Exploring Multi-Agent Foundation Models in Zero-Shot Visual Question Answering** [Paper](https://arxiv.org/abs/2403.14783) [Code](https://github.com/bowen-upenn/Multi-Agent-VQA)
 
 
+## Web Agents
+WebGPT: Browser-assisted question-answering with human feedback [Paper](https://arxiv.org/abs/2112.09332) \
+WebShop: Towards scalable real-world web interaction with grounded language agents [Paper](https://arxiv.org/abs/2207.01206) [Code](https://github.com/princeton-nlp/WebShop) \
+**Pix2Act: From pixels to UI actions: Learning to follow instructions via graphical user interfaces** [Paper](https://arxiv.org/abs/2306.00245) [Code](https://github.com/google-deepmind/pix2act) \
+**WebGUM: Multimodal web navigation with instruction-finetuned foundation models** [Paper](https://arxiv.org/abs/2305.11854) [Code] \
+Mind2Web: Towards a Generalist Agent for the Web [Paper](https://arxiv.org/abs/2306.06070) [Code](https://github.com/OSU-NLP-Group/Mind2Web) \
+WebAgent: A real-world webagent with planning, long context understanding, and program synthesis [Paper](https://arxiv.org/abs/2307.12856) \
+**CogAgent: A visual language model for GUI agents** [Paper](https://arxiv.org/abs/2312.08914) [Code](https://github.com/THUDM/CogAgent) \
+**SeeAct: Gpt-4v (ision) is a generalist web agent, if grounded** [Paper](https://arxiv.org/abs/2401.01614) [Code](https://github.com/OSU-NLP-Group/SeeAct)
+
+
+## LLM-Based Evaluation
+ChatEval: Towards better llm-based evaluators through multi-agent debate [Paper](https://arxiv.org/abs/2308.07201) [Code](https://github.com/thunlp/ChatEval) \
+Benchmarking foundation models with language-model-as-an-examiner [Paper](https://arxiv.org/abs/2306.04181) \
+CoBBLEr: Benchmarking cognitive biases in large language models as evaluators [Paper](https://arxiv.org/abs/2309.17012) [Code](https://github.com/minnesotanlp/cobbler) \
+Large Language Models are Inconsistent and Biased Evaluators [Paper](https://arxiv.org/pdf/2405.01724)
+
+
+
+
 
 
 
