@@ -178,7 +178,7 @@ EureQA: How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on De
 Combating Adversarial Attacks with Multi-Agent Debate [Paper](https://arxiv.org/abs/2401.05998) \
 MAD-Bench: How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts [Paper](https://arxiv.org/abs/2402.13220)
 
-
+# Evaluating Rationality of Agents
 
 
 
