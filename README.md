@@ -2,7 +2,7 @@
 
 ### We will release the paper in the upcoming week.
 
-This survey is the first to specifically examine the increasingly important relations between **rationality** and **multi-modal and multi-agent systems**, identifying their advancements over single-agent and single-modal baselines in terms of rationality, and discussing open problems and future directions. 
+This survey is the first to specifically examine the increasingly important relations between **rationality** and **multi-modal/multi-agent systems**, identifying their advancements over single-agent and single-modal baselines in terms of rationality, and discussing open problems and future directions. 
 
 - [Define Rationality](#define-rationality)
 - [Towards Rationality through Multi-Modal and Multi-Agent Systems](#towards-rationality-through-multi-modal-and-multi-agent-systems)
