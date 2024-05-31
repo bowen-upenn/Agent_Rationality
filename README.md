@@ -10,6 +10,8 @@ This survey is the first to specifically examine the increasingly important rela
 
 The fields of multi-modal and multi-agent systems are rapidly evolving, so we highly encourage researchers who want to promote their amazing works on this dynamic repository to submit a pull request and make updates. 💜
 
+We have a concurrent work ***A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners*** [Paper]() [Code](https://github.com/bowen-upenn/llm_logical_fallacies) to be released in the upcoming week as well. It is designed to determine whether LLMs are capable of genuine reasoning or if they primarily rely on token bias. We go beyond accuracy and reconceptualize the evaluation of reasoning capabilities in LLMs into a general, statistically rigorous framework of testable hypotheses. Our findings with statistical guarantees suggest that LLMs struggle with probabilistic reasoning, with apparent performance improvements largely attributable to token bias.
+
 ## Define Rationality
 **Rationality** is the quality of being guided by reason, characterized by logical thinking and decision-making that align with evidence and logical rules. This quality is essential for effective problem-solving, as it ensures that solutions are well-founded and systematically derived. We define four axioms we expect a rational agent or agent systems should satisfy: 
 - **Information grounding**
