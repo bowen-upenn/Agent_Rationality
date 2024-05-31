@@ -1,5 +1,7 @@
 # This is the official repository of the paper "Multi-Modal and Multi-Agent Systems Meet Rationality: A Survey"
 
+### 💜 We will release the paper in the upcoming week.
+
 This survey is the first to specifically examine the increasingly important relations between **rationality** and **multi-modal and multi-agent systems**, identifying their advancements over single-agent and single-modal baselines in terms of rationality, and discussing open problems and future directions. 
 
 **Rationality** is the quality of being guided by reason, characterized by logical thinking and decision-making that align with evidence and logical rules. This quality is essential for effective problem-solving, as it ensures that solutions are well-founded and systematically derived. We define four axioms we expect a rational agent or agent systems should satisfy: 
@@ -28,7 +30,7 @@ Each field of research in the figure above, such as knowledge retrieval or neuro
 We include all related works in our survey below, categorized by their fields. **Bold fonts are used to mark work that involve multi-modalities.** In their original writings, most existing studies do not explicitly base their frameworks on rationality. Our analysis aims to reinterpret these works through the lens of our four axioms of rationality, offering a novel perspective that bridges existing methodologies with rational principles.
 
 ## Knowledge Retrieval
-The parametric nature of LLMs fundamentally limits how much information they can hold. A multi-modal and/or multi-agent system can include planning agents in its framework, which is akin to the System 2 process that can determine how and where to retrieve external knowledge, and what specific information to acquire. Additionally, the system can have summarizing agents that utilize retrieved knowledge to enrich the system's language outputs with better factuality. 
+_The parametric nature of LLMs fundamentally limits how much information they can hold. A multi-modal and/or multi-agent system can include planning agents in its framework, which is akin to the System 2 process that can determine how and where to retrieve external knowledge, and what specific information to acquire. Additionally, the system can have summarizing agents that utilize retrieved knowledge to enrich the system's language outputs with better factuality._
 
 RAG: Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks [Paper](https://arxiv.org/abs/2005.11401) \
 **Minedojo: Building open-ended embodied agents with internet-scale knowledge** [Paper](https://arxiv.org/abs/2206.08853) [Code](https://github.com/MineDojo/MineDojo) \
@@ -45,9 +47,9 @@ CuriousLLM: Elevating Multi-Document QA with Reasoning-Infused Knowledge Graph P
 Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents [Paper](https://arxiv.org/pdf/2405.02957)
 
 ## Multi-Modal Foundation Models
-As a picture is worth a thousand words, multi-modal approaches aim to improve the information grounding across various channels like language and vision. By incorporating multi-modal agents, multi-agent systems can greatly expand their capabilities, enabling a richer, more accurate, and contextually aware interpretation of environment. MMFMs are also particularly adept at promoting invariance by processing multi-modal data in an unified representation. Specifically, their large-scale cross-modal pretraining stage seamlessly tokenizes both vision and language inputs into a joint hidden embedding space, learning cross-modal correlations through a data-driven approach. 
+_As a picture is worth a thousand words, multi-modal approaches aim to improve the information grounding across various channels like language and vision. By incorporating multi-modal agents, multi-agent systems can greatly expand their capabilities, enabling a richer, more accurate, and contextually aware interpretation of environment. MMFMs are also particularly adept at promoting invariance by processing multi-modal data in an unified representation. Specifically, their large-scale cross-modal pretraining stage seamlessly tokenizes both vision and language inputs into a joint hidden embedding space, learning cross-modal correlations through a data-driven approach._
 
-Generating output texts from input images requires only a single inference pass, which is quick and straightforward, aligning closely with the System 1 process of fast and automatic thinking in **[dual-process theories](https://en.wikipedia.org/wiki/Dual_process_theory)**. RLHF and visual instruction-tuning enable more multi-round human-agent interactions and collaborations with other agents. This opens the possibility of subsequent research on the System 2 process in MMFMs.
+_Generating output texts from input images requires only a single inference pass, which is quick and straightforward, aligning closely with the System 1 process of fast and automatic thinking in **[dual-process theories](https://en.wikipedia.org/wiki/Dual_process_theory)**. RLHF and visual instruction-tuning enable more multi-round human-agent interactions and collaborations with other agents. This opens the possibility of subsequent research on the System 2 process in MMFMs._
 
 **CLIP: Learning transferable visual models from natural language supervision** [Paper](https://arxiv.org/abs/2103.00020) [Code](https://github.com/openai/CLIP) \
 **iNLG: Imagination-guided open-ended text generation** [Paper](https://arxiv.org/abs/2210.03765) [Code](https://github.com/VegB/iNLG) \
@@ -75,7 +77,7 @@ Ghost in the Minecraft: Generally capable agents for open-world enviroments via 
 **CubeLLM: Language-Image Models with 3D Understanding** [Paper](https://arxiv.org/abs/2405.03685) [Code](https://github.com/NVlabs/Cube-LLM) 
 
 ## Tool Utilizations
-A multi-agent system can coordinate agents understanding when and which tool to use, which modality of information the tool should expect, how to call the corresponding API, and how to incorporate outputs from the API calls, which anchors subsequent reasoning processes with more accurate information beyond their parametric memory. Besides, using tools require translating natural language queries into API calls with predefined syntax. Once the planning agent has determined the APIs and their input arguments, the original queries that may contain irrelevant contexts become invisible to the tools, and the tools will ignore any variance in the original queries as long as they share the equivalent underlying logic, promiting the invariance property.
+_A multi-agent system can coordinate agents understanding when and which tool to use, which modality of information the tool should expect, how to call the corresponding API, and how to incorporate outputs from the API calls, which anchors subsequent reasoning processes with more accurate information beyond their parametric memory. Besides, using tools require translating natural language queries into API calls with predefined syntax. Once the planning agent has determined the APIs and their input arguments, the original queries that may contain irrelevant contexts become invisible to the tools, and the tools will ignore any variance in the original queries as long as they share the equivalent underlying logic, promiting the invariance property._
 
 **Visual Programming: Compositional visual reasoning without training** [Paper](https://arxiv.org/abs/2211.11559) [Code](https://github.com/allenai/visprog) \
 Parsel: Algorithmic Reasoning with Language Models by Composing Decompositions [Paper](https://arxiv.org/abs/2212.10561) [Code](https://github.com/ezelikman/parsel) \
@@ -118,7 +120,7 @@ Large Language Models are Inconsistent and Biased Evaluators [Paper](https://arx
 
 
 ## Neuro-Symbolic Reasoning
-Neural-symbolic reasoning is another promising approach to achieving consistent ordering of preferences and invariance by combining the strengths of languages and symbolic logic in a multi-agent system. A multi-agent system incorporating symbolic modules can not only understand language queries but also solve them with a level of consistency, providing a faithful and transparent reasoning process based on well-defined rules that adhere to logical principles, which is unachievable by LLMs alone within the natural language space. Neuro-Symbolic modules also expect standardized input formats. This layer of abstraction enhances the independence from irrelevant contexts and maintains the invariance of LLMs when handling natural language queries.
+_Neural-symbolic reasoning is another promising approach to achieving consistent ordering of preferences and invariance by combining the strengths of languages and symbolic logic in a multi-agent system. A multi-agent system incorporating symbolic modules can not only understand language queries but also solve them with a level of consistency, providing a faithful and transparent reasoning process based on well-defined rules that adhere to logical principles, which is unachievable by LLMs alone within the natural language space. Neuro-Symbolic modules also expect standardized input formats. This layer of abstraction enhances the independence from irrelevant contexts and maintains the invariance of LLMs when handling natural language queries._
 
 **Binder: Binding language models in symbolic languages** [Paper](https://arxiv.org/abs/2210.02875) [Code](https://github.com/xlang-ai/Binder) \
 Parsel: Algorithmic Reasoning with Language Models by Composing Decompositions [Paper](https://arxiv.org/abs/2212.10561) [Code](https://github.com/ezelikman/parsel) \
@@ -135,9 +137,9 @@ Conceptual and Unbiased Reasoning in Language Models [Paper](https://arxiv.org/a
 
 
 ## Self-Reflection, Multi-Agent Debate, and Collboration
-Due to the probabilistic outputs of LLMs, which resemble the rapid, non-iterative nature of human System 1 cognition, ensuring preference orderability and invariance is challenging. In contrast, algorithms that enable self-reflection and multi-agent systems that promote debate and consensus can slow down the thinking process and help align outputs more closely with the deliberate and logical decision-making typical of System 2 processes, thus enhancing rational reasoning in agents.
+_Due to the probabilistic outputs of LLMs, which resemble the rapid, non-iterative nature of human System 1 cognition, ensuring preference orderability and invariance is challenging. In contrast, algorithms that enable self-reflection and multi-agent systems that promote debate and consensus can slow down the thinking process and help align outputs more closely with the deliberate and logical decision-making typical of System 2 processes, thus enhancing rational reasoning in agents._
 
-Collaborative approaches allow each agent in a system to compare and rank its preference on choices from its own or from other agents through critical judgments. It helps enable the system to discern and output the most dominant decision as a consensus, thereby improving the orderability of preference. At the same time, through such a slow and critical thinking process, errors in initial responses or input prompts are more likely to be detected and corrected. 
+_Collaborative approaches allow each agent in a system to compare and rank its preference on choices from its own or from other agents through critical judgments. It helps enable the system to discern and output the most dominant decision as a consensus, thereby improving the orderability of preference. At the same time, through such a slow and critical thinking process, errors in initial responses or input prompts are more likely to be detected and corrected._
 
 Self-Refine: Iterative refinement with self-feedback [Paper](https://arxiv.org/abs/2303.17651) [Code](https://github.com/madaan/self-refine) \
 Reflexion: Language agents with verbal reinforcement learning [Paper](https://arxiv.org/abs/2303.11366) [Code](https://github.com/noahshinn/reflexion) \
@@ -178,14 +180,81 @@ EureQA: How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on De
 Combating Adversarial Attacks with Multi-Agent Debate [Paper](https://arxiv.org/abs/2401.05998) \
 MAD-Bench: How Easy is It to Fool Your Multimodal LLMs? An Empirical Analysis on Deceptive Prompts [Paper](https://arxiv.org/abs/2402.13220)
 
+
 # Evaluating Rationality of Agents
 
+***🏳️‍🌈 Our Work 🏳️‍⚧️ A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners*** [Paper]() [Code](https://github.com/bowen-upenn/llm_logical_fallacies) To be released in the upcoming week.
+
+This study is designed to determine whether LLMs are capable of genuine reasoning or if they primarily rely on token bias. We reconceptualize the evaluation of reasoning capabilities in LLMs into a general, statistically rigorous framework of testable hypotheses. Our findings with statistical guarantees suggest that LLMs struggle with probabilistic reasoning, with apparent performance improvements largely attributable to token bias. 
 
 
+## General Benchmarks or Evaluation Metrics
+CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge [Paper](https://arxiv.org/pdf/1811.00937) [Data](https://www.tau-nlp.sites.tau.ac.il/commonsenseqa) \
+LogiQA: a challenge dataset for machine reading comprehension with logical reasoning [Paper](https://arxiv.org/pdf/2007.08124) [Data](https://github.com/lgw863/LogiQA-dataset) \
+Logiqa 2.0: an improved dataset for logical reasoning in natural language understanding [Paper](https://ieeexplore.ieee.org/document/10174688) [Data](https://github.com/csitfun/LogiQA2.0) \
+HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering [Paper](https://arxiv.org/abs/1809.09600) [Data](https://hotpotqa.github.io) \
+Measuring mathematical problem solving with the math dataset [Paper](https://arxiv.org/abs/2103.03874) [Data](https://github.com/hendrycks/math) \
+HybridQA: A Dataset of Multi-Hop Question Answering over Tabular and Textual Data [Paper](https://arxiv.org/abs/2004.07347) [Data](https://hybridqa.github.io) \
+Conceptual and Unbiased Reasoning in Language Models [Paper](https://arxiv.org/abs/2404.00205) \
+Large language model evaluation via multi AI agents: Preliminary results [Paper](https://arxiv.org/abs/2404.01023) \
+AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents [Paper](https://arxiv.org/abs/2401.13178) [Code](https://github.com/hkust-nlp/AgentBoard) \
+**AgentBench: Evaluating LLMs as Agents** [Paper](https://arxiv.org/abs/2308.03688) [Code](https://github.com/THUDM/AgentBench?tab=readme-ov-file) \
+Benchmark self-evolving: A multi-agent framework for dynamic llm evaluation [Paper](https://arxiv.org/abs/2402.11443) [Code](https://github.com/nanshineloong/self-evolving-benchmark) \
+Llm-deliberation: Evaluating llms with interactive multi-agent negotiation games [Paper](https://arxiv.org/abs/2309.17234) [Code](https://github.com/S-Abdelnabi/LLM-Deliberation)
 
 
+## Adapting Cognitive Psychology Experiments
+Using cognitive psychology to understand GPT-3 [Paper](https://arxiv.org/abs/2206.14576) [Code](https://github.com/marcelbinz/GPT3goesPsychology) \
+On the dangers of stochastic parrots: Can language models be too big? [Paper](https://dl.acm.org/doi/10.1145/3442188.3445922)
 
 
+## Testing Grounding against Hallucination
+**A multi-task, multilingual, multimodal evaluation of chatgpt on reasoning, hallucination, and interactivity** [Paper](https://arxiv.org/abs/2302.04023) [Data](https://github.com/HLTCHKUST/chatgpt-evaluation) \
+Hallucinations in large multilingual translation models [Paper](https://arxiv.org/abs/2303.16104) [Data](https://github.com/deep-spin/lmt_hallucinations) \
+Evaluating attribution in dialogue systems: The BEGIN benchmark [Paper](https://arxiv.org/abs/2105.00071) [Data](https://github.com/google/BEGIN-dataset) \
+HaluEval: A large-scale hallucination evaluation benchmark for large language models [Paper](https://arxiv.org/abs/2305.11747) [Data](https://github.com/RUCAIBox/HaluEval) \
+DialDact: A benchmark for fact-checking in dialogue [Paper](https://arxiv.org/abs/2110.08222) [Data](https://github.com/salesforce/DialFact) \
+FaithDial: A faithful benchmark for information-seeking dialogue [Paper](https://arxiv.org/abs/2204.10757) [Data](https://github.com/McGill-NLP/FaithDial) \
+AIS: Measuring attribution in natural language generation models [Paper](https://arxiv.org/abs/2112.12870) [Data](https://github.com/google-research-datasets/attributed-qa) \
+Why does ChatGPT fall short in providing truthful answers [Paper](https://arxiv.org/abs/2304.10513) \
+FADE: Diving deep into modes of fact hallucinations in dialogue systems [Paper](https://arxiv.org/abs/2301.04449) [Code](https://github.com/souvikdgp16/FADE) \
+Hallucinated but factual! inspecting the factuality of hallucinations in abstractive summarization [Paper](https://arxiv.org/abs/2109.09784)  \
+Exploring and evaluating hallucinations in llm-powered code generation [Paper](https://arxiv.org/abs/2404.00971) \
+EureQA: Deceiving semantic shortcuts on reasoning chains: How far can models go without hallucination [Paper](https://arxiv.org/abs/2311.09702) [Code](https://vincentleebang.github.io/eureqa.github.io/) \
+TofuEval: Evaluating hallucinations of llms on topic-focused dialogue summarization [Paper](https://arxiv.org/abs/2402.13249) [Code](https://github.com/amazon-science/tofueval) \
+**Object hallucination in image captioning** [Paper](https://arxiv.org/abs/1809.02156) [Code](https://github.com/LisaAnne/Hallucination) \
+**Let there be a clock on the beach: Reducing object hallucination in image captioning** [Paper](https://arxiv.org/abs/2110.01705) [Code](https://github.com/furkanbiten/object-bias) \
+**Evaluating object hallucination in large vision-language models** [Paper](https://arxiv.org/abs/2305.10355) [Code](https://github.com/RUCAIBox/POPE) \
+**LLaVA-RLHF: Aligning large multimodal models with factually augmented RLHF** [Paper](https://arxiv.org/abs/2309.14525) [Code](https://github.com/llava-rlhf/LLaVA-RLHF)
 
 
+## Testing the Orderability of Preference
+Large language models are not robust multiple choice selectors [Paper](https://arxiv.org/abs/2309.03882) [Code](https://github.com/chujiezheng/LLM-MCQ-Bias) \
+Leveraging large language models for multiple choice question answering [Paper](https://arxiv.org/abs/2210.12353) [Code](https://github.com/BYU-PCCL/leveraging-llms-for-mcqa)
 
+
+## Testing the Principle of Invariance
+Mind the instructions: a holistic evaluation of consistency and interactions in prompt-based learning [Paper](https://arxiv.org/abs/2310.13486) \
+Rethinking benchmark and contamination for language models with rephrased samples [Paper](https://arxiv.org/abs/2311.04850) [Code](https://github.com/lm-sys/llm-decontaminator) \
+From Form(s) to Meaning: Probing the semantic depths of language models using multisense consistency [Paper](https://arxiv.org/abs/2404.12145) [Code](https://github.com/facebookresearch/multisense_consistency) \
+Fantastically ordered prompts and where to find them: Overcoming few-shot prompt order sensitivity [Paper](https://arxiv.org/abs/2104.08786) [Code](https://github.com/yaolu/Ordered-Prompt) \
+On sensitivity of learning with limited labelled data to the effects of randomness: Impact of interactions and systematic choices [Paper](https://arxiv.org/abs/2402.12817) \
+Benchmark self-evolving: A multi-agent framework for dynamic llm evaluation [Paper](https://arxiv.org/abs/2402.11443) [Code](https://github.com/nanshineloong/self-evolving-benchmark) \
+Exploring multilingual human value concepts in large language models: Is value alignment consistent, transferable and controllable across languages? [Paper](https://arxiv.org/abs/2402.18120) [Code](https://github.com/shaoyangxu/Multilingual-Human-Value-Concepts) \
+**Fool your (vision and) language model with embarrassingly simple permutations** [Paper](https://arxiv.org/abs/2310.01651) [Code](https://github.com/ys-zong/FoolyourVLLMs) \
+Large language models are not robust multiple choice selectors [Paper](https://arxiv.org/abs/2309.03882) [Code](https://github.com/chujiezheng/LLM-MCQ-Bias)
+
+
+## Testing Independence from Irrelevant Context
+Large language models can be easily distracted by irrelevant context [Paper](https://arxiv.org/abs/2302.00093) \
+How easily do irrelevant inputs skew the responses of large language models? [Paper](https://arxiv.org/abs/2404.03302) [Code](https://github.com/Di-viner/LLM-Robustness-to-Irrelevant-Information) \
+Lost in the middle: How language models use long context [Paper](https://arxiv.org/abs/2307.03172) [Code](https://github.com/nelson-liu/lost-in-the-middle) \
+Making retrieval-augmented language models robust to irrelevant context [Paper](https://arxiv.org/abs/2310.01558) [Code](https://github.com/oriyor/ret-robust) \
+Towards AI-complete question answering: A set of prerequisite toy tasks [Paper](https://arxiv.org/abs/1502.05698) [Code](https://github.com/qapitan/babi-marcus) \
+CLUTRR: A diagnostic benchmark for inductive reasoning from text [Paper](https://arxiv.org/abs/1908.06177) [Code](https://github.com/facebookresearch/clutrr) \
+Transformers as soft reasoners over language [Paper](https://arxiv.org/abs/2002.05867) [Code](https://github.com/allenai/ruletaker) \
+Do prompt-based models really understand the meaning of their prompts? [Paper](https://arxiv.org/abs/2109.01247) [Code](https://github.com/awebson/prompt_semantics) \
+**MileBench: Benchmarking MLLMs in long context** [Paper](https://arxiv.org/abs/2404.18532) [Code](https://github.com/MileBench/MileBench) \
+**Mementos: A comprehensive benchmark for multimodal large language model reasoning over image sequences** [Paper](https://arxiv.org/abs/2401.10529) [Code](https://github.com/umd-huang-lab/Mementos) \
+**Seedbench-2: Benchmarking multimodal large language models** [Paper](https://arxiv.org/abs/2311.17092) [Code](https://github.com/AILab-CVC/SEED-Bench) \
+**DEMON: Finetuning multimodal llms to follow zero-shot demonstrative instructions** [Paper](https://arxiv.org/abs/2308.04152) [Code](https://github.com/DCDmllm/Cheetah)
