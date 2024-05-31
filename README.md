@@ -31,7 +31,7 @@ The fields of multi-modal and multi-agent systems are rapidly evolving, so we hi
 
 ## Towards Rationality through Multi-Modal and Multi-Agent Systems
 <p align="center">
-<img src=tree.png />
+<img src=evol_tree.png />
 </p>
 
 Each field of research in the figure above, such as knowledge retrieval or neuro-symbolic reasoning, addresses one or more fundamental axioms for rational thinking. These requirements are typically intertwined; therefore, an approach that enhances one aspect of rationality often inherently improves others simultaneously.
