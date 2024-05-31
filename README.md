@@ -198,9 +198,8 @@ _This survey builds connections between multi-modal and multi-agent systems with
 
 [The choices of evaluation metrics are important](https://arxiv.org/abs/2304.15004). We find that most benchmarks predominantly focus on the accuracy of the final performance, ignoring the most interesting intermediate reasoning steps and the concept of rationality. **A promising direction is to create benchmarks specifically tailored to assess rationality, going beyond existing ones on accuracy.** These new benchmarks should avoid data contamination and emphasize tasks that demand consistent reasoning across diverse representations and domains. Besides, existing evaluations on rationality provide limited comparisons between multi-modal/multi-agent frameworks and single-agent baselines, thus failing to fully elucidate the advantages multi-modal/multi-agent frameworks can offer.
 
-***🏳️‍🌈 Our Work 🏳️‍⚧️ A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners*** [Paper]() [Code](https://github.com/bowen-upenn/llm_logical_fallacies) To be released in the upcoming week.
-
-This study is designed to determine whether LLMs are capable of genuine reasoning or if they primarily rely on token bias. We go beyond accuracy and reconceptualize the evaluation of reasoning capabilities in LLMs into a general, statistically rigorous framework of testable hypotheses. Our findings with statistical guarantees suggest that LLMs struggle with probabilistic reasoning, with apparent performance improvements largely attributable to token bias.
+***🏳️‍🌈 Our Work 🏳️‍⚧️ A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners*** [Paper]() [Code](https://github.com/bowen-upenn/llm_logical_fallacies) \
+is designed to determine whether LLMs are capable of genuine reasoning or if they primarily rely on token bias. We go beyond accuracy and reconceptualize the evaluation of reasoning capabilities in LLMs into a general, statistically rigorous framework of testable hypotheses. Our findings with statistical guarantees suggest that LLMs struggle with probabilistic reasoning, with apparent performance improvements largely attributable to token bias. To be released in the upcoming week.
 
 
 ### General Benchmarks or Evaluation Metrics
