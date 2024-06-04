@@ -1,6 +1,4 @@
-# This is the official repository of the paper "Multi-Modal and Multi-Agent Systems Meet Rationality: A Survey"
-
-### We will release the paper in the upcoming week.
+# This is the official repository of the paper ["Multi-Modal and Multi-Agent Systems Meet Rationality: A Survey"](https://arxiv.org/abs/2406.00252)
 
 This survey is the first to specifically examine the increasingly important relations between **rationality** and **multi-modal/multi-agent systems**, identifying their advancements over single-agent and language-only baselines in terms of rationality, and discussing open problems and future directions. 
 
