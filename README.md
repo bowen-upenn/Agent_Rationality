@@ -1,6 +1,6 @@
 # This is the official repository of the paper ["Multi-Modal and Multi-Agent Systems Meet Rationality: A Survey"](https://arxiv.org/abs/2406.00252)
 
-This survey is the first to specifically examine the increasingly important relations between **rationality** and **multi-modal/multi-agent systems**, identifying their advancements over single-agent and language-only baselines in terms of rationality, and discussing open problems and future directions. 
+This survey is the first to specifically examine how **multi-modal and multi-agent systems** 🤖 are advancing towards **rationality** 🧠 in cognitive science, identifying their advancements over single-agent and language-only baselines, and discuss open problems in evaluating rationality beyong accuracy.
 
 - [Define Rationality](#define-rationality)
 - [Towards Rationality through Multi-Modal and Multi-Agent Systems](#towards-rationality-through-multi-modal-and-multi-agent-systems)
