@@ -8,7 +8,7 @@ This survey is the first to specifically examine how **multi-modal and multi-age
 
 The fields of multi-modal and multi-agent systems are rapidly evolving, so we highly encourage researchers who want to promote their amazing works on this dynamic repository to submit a pull request and make updates. 💜
 
-We have a concurrent work ***A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners*** [Paper]() [Code](https://github.com/bowen-upenn/llm_logical_fallacies) to be released in the upcoming week as well. It is designed to determine whether LLMs are capable of genuine reasoning or if they primarily rely on token bias. We go beyond accuracy and reconceptualize the evaluation of reasoning capabilities in LLMs into a general, statistically rigorous framework of testable hypotheses. Our findings with statistical guarantees suggest that LLMs struggle with probabilistic reasoning, with apparent performance improvements largely attributable to token bias.
+We have a concurrent work ***A Peek into Token Bias: Large Language Models Are Not Yet Genuine Reasoners*** [Paper]() [Code](https://github.com/bowen-upenn/llm_logical_fallacies) to be released in the upcoming week as well. The survey critics the limitations of existing benchmarks on evaluating rationality, and this paper goes beyond accuracy and reconceptualize the evaluation of reasoning capabilities in LLMs into a general, statistically rigorous framework of testable hypotheses. It is designed to determine whether LLMs are capable of genuine reasoning or if they primarily rely on token bias. Our findings with statistical guarantees suggest that LLMs struggle with probabilistic reasoning.
 
 ## Citations
 A bunny 🐰 will be happy if you could cite our work.
