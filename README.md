@@ -6,8 +6,8 @@
 Unlike **reasoning** that aims to draw conclusions from premises, **rationality** ensures that those conclusions are reliably consistent, have an orderability of preference, and are aligned with evidence from various sources and logical principles. It becomes increasingly important for human users applying these agents in critical sectors like health care and finance that expect consistent and reliable decision-making. This survey is the first to comprehensively explore the notion of rationality 🧠 in language and multimodal agents 🤖. 
 
 - [Define Rationality](#define-rationality)
-- [Towards Rationality through Multi-Modal and Multi-Agent Systems](#towards-rationality-through-multi-modal-and-multi-agent-systems)
-- [Evaluating Rationality of Agents](#evaluating-rationality-of-agents)
+- [Towards Rationality in Agents](#towards-rationality-in-agents)
+- [Evaluating Rationality in Agents](#evaluating-rationality-in-agents)
 
 <p align="center">
 <img src=header.png />
