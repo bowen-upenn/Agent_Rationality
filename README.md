@@ -9,6 +9,9 @@ Unlike **reasoning** that aims to draw conclusions from premises, **rationality*
 - [Towards Rationality through Multi-Modal and Multi-Agent Systems](#towards-rationality-through-multi-modal-and-multi-agent-systems)
 - [Evaluating Rationality of Agents](#evaluating-rationality-of-agents)
 
+<p align="center">
+<img src=header.png />
+</p>
 
 The fields of language and multimodal agents are rapidly evolving, so we highly encourage researchers who want to promote their amazing works on this dynamic repository to submit a pull request and make updates. 💜
 
@@ -49,12 +52,16 @@ This bunny 🐰 will be happy if you could cite our work. (Google Scholar is sti
 
 ## Towards Rationality in Agents
 <p align="center">
-<img src=evol_tree.png />
+<img src=tree.png />
 </p>
 
 **Bold fonts are used to mark work that involve multi-modalities.** In their original writings, most existing studies do not explicitly base their frameworks on rationality. Our analysis aims to reinterpret these works through the lens of our four axioms of rationality, offering a novel perspective that bridges existing methodologies with rational principles.
 
 ## 1. Advancing Information Grounding
+<p align="center">
+<img src=grounding.png />
+</p>
+
 ### 1.1. Grounding on multimodal information
 
 **CLIP: Learning transferable visual models from natural language supervision** [Paper](https://arxiv.org/abs/2103.00020) [Code](https://github.com/openai/CLIP) \
@@ -117,6 +124,10 @@ ConAgents: Learning to Use Tools via Cooperative and Interactive Agents [Paper](
 
 
 ## 2. Advancing Logical Consistency
+<p align="center">
+<img src=consistency.png />
+</p>
+
 ### 2.1. Consensus from reflection and multi-agent collaboration
 CoT: Chain-of-thought prompting elicits reasoning in large language models [Paper](https://arxiv.org/abs/2201.11903) \
 Self-Refine: Iterative refinement with self-feedback [Paper](https://arxiv.org/abs/2303.17651) [Code](https://github.com/madaan/self-refine) \
@@ -157,12 +168,19 @@ A Neuro-Symbolic Approach to Multi-Agent RL for Interpretability and Probabilist
 Conceptual and Unbiased Reasoning in Language Models [Paper](https://arxiv.org/abs/2404.00205)
 
 ## 3. Advancing Invariance from Irrelevant Information
+<p align="center">
+<img src=invariance.png />
+</p>
+
 - [ ] TODO: We are continuing updating the sections below. Please refer our paper for the full details.
 ### 3.1. Representation invariance across modalities
 
 ### 3.2. Abstraction from symbolic reasoning and tool utilization
 
 ## 4. Advancing Orderability of Preference
+<p align="center">
+<img src=preference.png />
+</p>
 ### 4.1. Learning preference from reinforcement learning
 ### 4.2. Maximizing utility functions and controlling conformal risks
 
