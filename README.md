@@ -1,4 +1,4 @@
-# This is the official repository of the paper ["Towards Rationality in Language and Multimodal Agents: A Survey"](https://arxiv.org/abs/2406.00252)
+# [NAACL 2025 Main] This is the official repository of the paper ["Towards Rationality in Language and Multimodal Agents: A Survey"](https://arxiv.org/abs/2406.00252)
 
 [![Arxiv](https://img.shields.io/badge/ArXiv-Full_Paper-B31B1B)](https://arxiv.org/abs/2406.00252)
 [![Google Scholar](https://img.shields.io/badge/Google_Scholar-Cite_Our_Paper-4085F4)](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C39&q=Multi-Modal+and+Multi-Agent+Systems+Meet+Rationality%3A+A+Survey&btnG=)
